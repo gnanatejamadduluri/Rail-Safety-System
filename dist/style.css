@@ -1,0 +1,39 @@
+#heading {
+  text-align: center;
+  background-color: #FFFFFF;
+  
+}
+canvas {
+  border: solid red;
+}
+body {
+background-image : url("https://images.pexels.com/photos/258510/pexels-photo-258510.jpeg?cs=srgb&dl=pexels-pixabay-258510.jpg&fm=jpg");
+background-position: center top;
+}
+div.template1 {
+color : #f89a03;
+background-color: #255B;
+width: 600px;
+border: 3px solid #100D;
+position: relative;
+  left: 350px;
+}
+div.template2 {
+color : #f89a03;
+background-color: #255B;
+width: 1200px;
+border: 3px solid #100D;
+position: relative;
+left: 50px;
+
+}
+div.template3 {
+color : #f89a03;
+background-color: #255B;
+width: 700px;
+height: 335px;
+border: 3px solid #100D;
+position: relative;
+  left: 300px;
+
+}

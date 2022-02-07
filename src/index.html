@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+  <title>
+    <p> Rail Safety System  </p>
+  </title>
+<head>
+  <h1 id="heading"> RAIL SAFETY SYSTEM</h1>
+  </head>
+  <body>
+ <div id="intro">
+   <h3>We see that the rail connecting throughout the circuit has many difficulties in each and every step of the organization and in the rail traffic. Starting from the gates to the attach of coaches with the engine/locomotive, there are possibilities of running into some small errors resulting huge impact. Science has the capability to reduce the impact at a maximum level. It is always the methods that we use for the implementation of the existing things, always matters. In this project/paper we are going to use the available technology in a different method in order to minimise the impact/accidents triggered due to errors in the functionality of railways. The technologies used are detection and display systems. </h3>
+   <h3>
+     Anything to be solved must be started with the study of possibilities that can happen/happened. The following are the list of places where there are possibilities of errors that might happen at various stages of rail proceedings.
+   </h3>
+   <h3>
+     1.	Sudden break or malfunctioning of the links between the coaches of a train. </h3>
+   <h3>
+2.	Unmanned/ automatic rail gates
+   </h3>
+ </div>
+    <h2 id="heading"> 1. Sudden break or malfunctioning of the links between the coaches of a train.</h2>
+<div class="template1">
+<p>
+<input id="raillink" type ="text">
+<input type="button" value="upload" onclick="RailLink()"
+</p>
+<p>
+<canvas id="CL">
+  </p>
+ </div>
+    <h2 id="heading"> 2. Unmanned/ automatic rail gates </h2>
+<div class="template3"> <p>
+<img src="https://drive.google.com/uc?id=17x9u8zP7e9F3OV0DJWt-TKuU1jm77nmQ" width="700"> 
+</p>
+  </div>
+ <div class="template2">
+<p>
+  The following one is the circuit of the above figure.
+</p>
+
+<p>
+ ------<input id="GenS" type="color" value="#FF0000" onchange="RailGate()">-----------<input id="GaS" type="color" value="#FF0000" onchange="RailGate()">----------------------------------------------------<input id="Gate1" type="color" value="#00FF00" onchange="RailGate()">-----------------------------------------------------------------------------------------
+</p>
+<p>
+----------------------------------------------------------------------------------------<input id="Gate2" type="color" value="#00FF00" onchange="RailGate()">----------------------------------------------------<input id="GaS2" type="color" value="#FF0000" onchange="RailGate()">-----------<input id="GenS2" type="color" value="#FF0000" onchange="RailGate()">
+</p>
+   <h1 id="denied"> </h1>
+   <p>
+  <input type="button" value="gates closed" onclick="GatesRed()">
+  <input type="button" value="open gates" onclick="GatesGreen()">
+     <input type="button" value="Reset" onclick="Reset()">
+</p>
+
+<p>
+<h3>TERMS AND THEIR MEANINGS: (Red=rgb(255,0,0), Green=rgb(0,255,0)) only</h3>
+  <h5>1. General Signal= Main line signal which is a caution signal for the upcoming gate signal</h5>
+<h5>2. Gate Signal= The main line signal which gives the status of the upcoming gate to the Loco-Pilots</h5>
+<h5>3. Distance between the general signal to the gate signal must be a minimum of 500m </h5>
+<h5>4. G= Railway Gates</h5>
+<h5>5. Final Impact= It is the maximum possible distance where the train stops due to sudden stop of train from the Gate Signal (very rare cases)</h5>
+</p>
+  </div>
+</p>
+</body>
+</html>
